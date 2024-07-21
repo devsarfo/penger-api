@@ -16,6 +16,7 @@ return [
     'registration_success' => 'Registration Successful!',
     'registration_success_verify' => 'Registration Successful! Please Verify Account with OTP',
     'login_success' => 'Login Successful!',
+    'logout_success' => 'Logout Successful!',
     'login_success_verify' => 'Login Successful! Please Verify Account with OTP',
     'otp_too_many_request' => 'Too many OTP Requests!',
     'otp_sent_success' => 'Verification Code Sent!',
