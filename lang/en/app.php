@@ -23,5 +23,14 @@ return [
     'otp_mail_subject' => 'Your 6-digit Penger Verification Code',
     'invalid_otp' => 'Invalid Verification Code',
     'verification_success' => 'Verification Successful!',
-    'password_reset_success' => 'Password Reset Successful!'
+    'password_reset_success' => 'Password Reset Successful!',
+    'currencies' => 'Currencies',
+    'currency' => 'Currency',
+    'account_types' => 'Account Types',
+    'account_type' => 'Account Type',
+
+
+    'data_loading_success' => ':data Loading Successful!',
+    'data_loading_error' => 'An error occurred whiles loading :data!',
+    'data_not_found' => ':data Not Found!'
 ];
