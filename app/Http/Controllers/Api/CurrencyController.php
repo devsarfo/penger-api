@@ -44,7 +44,7 @@ class CurrencyController extends Controller
 
         // return
         return response([
-            'message' => __('app.data_loading_success', [
+            'message' => __('app.data_load_success', [
                 'data' => __('app.currencies')
             ]),
             'results' => $results
@@ -61,7 +61,7 @@ class CurrencyController extends Controller
 
         // return
         return response([
-            'message' => __('app.data_loading_success', [
+            'message' => __('app.data_load_success', [
                 'data' => __('app.currency')
             ]),
             'results' => [

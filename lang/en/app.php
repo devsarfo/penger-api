@@ -28,9 +28,17 @@ return [
     'currency' => 'Currency',
     'account_types' => 'Account Types',
     'account_type' => 'Account Type',
+    'accounts' => 'Accounts',
+    'account' => 'Account',
 
 
-    'data_loading_success' => ':data Loading Successful!',
-    'data_loading_error' => 'An error occurred whiles loading :data!',
+    'data_load_success' => ':data Loaded Successfully!',
+    'data_load_error' => 'An error occurred whiles loading :data!',
+    'data_create_success' => ':data Created Successfully!',
+    'data_create_error' => 'An error occurred whiles creating :data!',
+    'data_update_success' => ':data Updated Successfully!',
+    'data_update_error' => 'An error occurred whiles updating :data!',
+    'data_delete_success' => ':data Deleted Successfully!',
+    'data_delete_error' => 'An error occurred whiles deleting :data!',
     'data_not_found' => ':data Not Found!'
 ];
