@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AccountController;
 use App\Http\Controllers\Api\AccountTypeController;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\CurrencyController;
@@ -27,4 +28,12 @@ Route::middleware('auth:sanctum')->controller(CurrencyController::class)->group(
 Route::middleware('auth:sanctum')->controller(AccountTypeController::class)->group(function () {
     Route::get('/account-type', 'index')->name('api.account.type.index');
     Route::get('/account-type/{id}', 'get')->name('api.account.type.get');
+});
+
+Route::middleware('auth:sanctum')->controller(AccountController::class)->group(function () {
+    Route::get('/account', 'index')->name('api.account.index');
+    Route::get('/account/{id}', 'get')->name('api.account.get');
+    Route::post('/account', 'store')->name('api.account.store');
+    Route::patch('/account/{id}', 'update')->name('api.account.update');
+    Route::delete('/account/{id}', 'delete')->name('api.account.delete');
 });

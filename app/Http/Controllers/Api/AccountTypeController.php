@@ -41,7 +41,7 @@ class AccountTypeController extends Controller
 
         // return
         return response([
-            'message' => __('app.data_loading_success', [
+            'message' => __('app.data_load_success', [
                 'data' => __('app.account_types')
             ]),
             'results' => $results
@@ -55,7 +55,7 @@ class AccountTypeController extends Controller
 
         // return
         return response([
-            'message' => __('app.data_loading_success', [
+            'message' => __('app.data_load_success', [
                 'data' => __('app.account_type')
             ]),
             'results' => [
